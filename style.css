@@ -1,0 +1,277 @@
+@font-face {
+    font-family: "Kameron";
+    src: url("font/Kameron-Regular.ttf");
+}
+@font-face {
+    font-family: "Karma";
+    src: url("font/Karma-Regular.ttf");
+}
+@font-face {
+    font-family: "Jacques Francois";
+    src: url("font/JacquesFrancois-Regular.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+body{
+    background-image: url(image/Desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: auto;
+    width: 1440px;
+    height: 1024px;
+}
+.blok_1{
+    width: 100%;
+    height: 113px;
+    position: relative;
+}
+/*მენიუს ზოლი*/
+.section_menu{
+    margin: auto;
+    margin-top: 64px;
+    width: 100%;
+    height: 49px;
+    position: relative;
+}
+#menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 77px;
+    z-index: 5;
+}
+.menu_charcho{
+    margin: auto;
+    width: 626px;
+    height: 100%;
+    position: relative;
+}
+#menu a{
+    color: #FFF;
+    font-family: Karma;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+/*მენიუს სურათი*/
+.image_menu{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 2px;
+    left: 51px;
+}
+/*მედუზის სურათი მენიუს ზოლში*/
+.image_3{
+    width: 284.69px;
+    height: 200px;
+    position: absolute;
+    top: -84px;
+    left: 394.43px;
+    transform: rotate(-8.871deg);
+    z-index: 6;
+    pointer-events: none;
+}
+.big_box{
+    margin: auto;
+    margin-top: -30px;
+    width: 900px;
+    height: 600px;
+    position: relative;
+}
+/*სათაურის ტექსტის ბოქსი*/
+.blok_2{
+    width: 848px;
+    height: 251px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+/*სათაური*/
+.section_text{
+    margin-top: 0;
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: linear-gradient(93deg, rgba(255, 255, 255, 0.90) -6.04%, rgba(255, 255, 255, 0.90) 109.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+/*სათაური*/
+.section_text_1{
+    margin-top: 0;
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: linear-gradient(94deg, rgba(255, 0, 77, 0.44) -4.84%, rgba(10, 65, 125, 0.44) 49.03%, rgba(222, 27, 168, 0.44) 101.79%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 0;
+    z-index: 1;
+}
+/*შუა ნაწილის ტექსტი position: absolute*/
+.box_text{
+    width: 785px;
+    height: 136px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+.box_text_style{
+    margin: 0;
+    font-family: "Kameron";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: lowercase;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 94.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.blok_3{
+    margin: auto;
+    width: 785px;
+    height: 136px;
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+}
+/*ღილაკი read more */
+.read_more_box{
+    width: 790px;
+    height: 36px;
+    margin: auto;
+    margin-top: 30px;
+    padding-left: 18px;
+}
+.read_more{
+    color: #FFF;
+    font-family: Karma;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.image_arrow{
+    width: 79px;
+    height: 17px;
+    margin-left: 15px;
+}
+/*სურათი მედუზის მარჯვნივ ცენტრში position: absolute*/
+.image_4{
+    width: 900.37px;
+    height: 700px;
+    position: absolute;
+    top: -137.92px;
+    left: 280px;
+    z-index: 2;
+}
+/*საიტის ბოლო ნაწილი*/
+.blok_4{
+    margin-top: -10px;
+    width: 100%;
+    height: 299.732px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+/*სურათი მედუზა მარცხნივ ქვედა კუთხეში*/
+.image{
+    width: 518.732px;
+    height: 299.529px;
+    margin-left: -48px;
+}
+/*სურათი ჩამოსაშლელი ღილაკი*/
+.image_down{
+    width: 40px;
+    height: 40px;
+    margin-left: 363.72px;
+    margin-top: 239px;
+}
+/*სოც ქსელების სურათების ბოქსი*/
+.box_1{
+    width: 112px;
+    height: 28px;
+    margin-top: 236px;
+    margin-left: 557px;
+    display: flex;
+    gap: 14px;
+}
+.image_box_2{
+    width: 28px;
+    height: 28px;
+}
+/*ბოქსი სადაც მოთავსებულია join us,subscribe,manage your subscription.  (position: absolute)*/
+.box_2{
+    width: 357px;
+    height: 134px;
+    position: absolute;
+    top: 138px;
+    left: 47px;
+}
+.box_join_us{
+    width: 116px;
+    height: 52px;
+    margin-left: 26px;
+}
+.text_join_us_style{
+    margin-top: 0;
+    color: #FFF;
+    font-family: Karma;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ul_size{
+    width: 100%;
+    height: 82px;
+    margin-top: 0;
+}
+.ul_size li{
+    color: #FFF;
+    font-family: Karma;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*სურათი მარჯვენა ზედა ნაწილში position: absolute*/
+.image_1{
+    width: 1383.285px;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+}
+
